@@ -51,6 +51,6 @@ while true; do
   else
     break
   fi
-  i=$[$i +1]
-  j=$[$j +1]
+  i=$[$i + $stepSize]
+  j=$[$i + $stepSize]
 done
