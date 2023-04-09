@@ -7,4 +7,4 @@ if [ ! -f deepflow2-static ]; then
   exit 1
 fi
 
-./deepflow2-static $1 $2 $3 -match
+./deepflow2-static $1 $2 $3
